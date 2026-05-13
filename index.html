@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateek's Webpage - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark-mode');
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>🌸 Prateek's Portfolio</h1>
+        <nav>
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="about.html" class="nav-btn">About</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+            <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-text">
+                <h2>Welcome to My Development Space 🚀</h2>
+                <p>Hello! I am Prateek Vijay, a tech enthusiast building interfaces from scratch. This website serves as my learning laboratory where I showcase clean layouts, web systems, and creative designs using pure code architectures.</p>
+                <a href="about.html" class="outline-btn">Read My Story</a>
+            </div>
+        </section>
+
+        <!-- Skill Cards Grid -->
+        <section class="dashboard-section">
+            <h3>Core Technical Foundations</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h4>Semantic HTML5</h4>
+                    <p>Structuring robust blueprints for modern websites. I focus heavily on element accessibility, document object modeling, and clean nested tag hierarchies.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h4>Aesthetic CSS3</h4>
+                    <p>Styling fluid interfaces using responsive flexboxes, CSS grids, custom themes, structural transition variables, and cross-device media adapters.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🛠️</span>
+                    <h4>Modern JavaScript</h4>
+                    <p>Programming interaction engines. This covers runtime DOM manipulation, application state synchronization, browser local storage controls, and handling events cleanly.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goals Section -->
+        <section class="dashboard-section">
+            <h3>My Computer Science Milestones</h3>
+            <ul class="roadmap-list">
+                <li><strong>Phase 1 (Current):</strong> Mastering native programming fundamentals (HTML/CSS/JS variable state engines) and engineering error-free interface code patterns.</li>
+                <li><strong>Phase 2 (Upcoming):</strong> Transitioning into complex engineering setups including full-stack software structures, API integrations, data parsing setups, and repository pipelines.</li>
+                <li><strong>Phase 3 (Degree Objective):</strong> Gaining extensive system design proficiency, algorithmic analysis structures, complex database design schemas, and hardware-software computation principles.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        2026 ~ Prateek's Webpage
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
